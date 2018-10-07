@@ -26,7 +26,7 @@ def random():
    results=[]
    #empty list of results
    for book in books:
-   	 if book['id']==id:
+   	 if book['id']=!id:
    		 results.append(book)
    return jsonify(results)
 
